@@ -1,0 +1,129 @@
+body {
+    padding: 5px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+section {
+    padding: 0 75px 25px 10px;
+    border: 2px solid gray;
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+.colors-box {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colors-box div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 23%;
+}
+
+.red-box {
+    background-color: red;
+}
+
+.blue-box {
+    background-color: blue;
+    color: white;
+}
+
+.green-box {
+    background-color: green;
+}
+
+.yellow-box {
+    background-color: yellow;
+}
+
+.fonts-box {
+    display: flex;
+}
+
+.fonts-box div {
+    width: 20%;
+}
+
+.font-1 {
+    font-family: roboto, san-serif;
+}
+
+.fonts-box h3 {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.style-1 {
+    text-decoration: none;
+}
+
+.style-2 {
+    font-weight: bold;
+}
+
+.style-3 {
+    font-style: italic;
+}
+
+.font-2 {
+    font-family: montserrat, sans-serif;
+}
+
+.font-3 {
+    font-family: oswald, sans-serif;
+}
+
+.buttons-box button {
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.button-2 {
+    background-color: rgb(17, 54, 221);
+    color: #fff;
+    border: 2px solid #1237dd;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.button-2:hover {
+    background-color: #0c1196;
+    font-size: 18px;
+}
+
+.button-2:active {
+    border: white;
+}
+
+.button-3 {
+    border: 2px solid #0c1196;
+    border-radius: 5px;
+    color: #F8F8F8;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
+    background: linear-gradient(rgb(17, 31, 221), #0e6ebc);
+    text-shadow: 0 -2px #0c1796;
+    margin-left: 10px;
+}
+
+.button-3:hover {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: #0e59bc;
+    background: linear-gradient(#0e59bc, #0c1c96);
+    border-color: #06064f;
+}
+
+.button-3:active {
+    transform: translateY(3px);
+    box-shadow: 0px 2px 2px rgba(63, 63, 63, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+    background: #0e59bc;
+    background: linear-gradient(#0e59bc, #0c1c96);
+}
